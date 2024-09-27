@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/palpite_bet.iml" filepath="$PROJECT_DIR$/palpite_bet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/palpite_bet_android.iml" filepath="$PROJECT_DIR$/android/palpite_bet_android.iml" />
+    </modules>
+  </component>
+</project>
