@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
    routes: {
-    '/': (context) => const TelainicialView(),
-    '/palpite': (context) => const PalpiteView(),
+    '/': (context) =>  TelainicialView(),
+    '/palpite': (context) =>  PalpiteView(),
    },
 initialRoute: '/',
     );
