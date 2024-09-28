@@ -73,7 +73,7 @@ class _PalpiteViewState extends State<PalpiteView> {
             const SizedBox(height: 20),
             Text(
               resultado ?? "",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 13),
             ),
           ],
         ),
