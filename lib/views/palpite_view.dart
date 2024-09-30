@@ -11,8 +11,7 @@ class PalpiteView extends StatefulWidget {
 class _PalpiteViewState extends State<PalpiteView> {
   int? palpite;
   int aleatorio = Random().nextInt(60) + 1;
-  String? resultado;
-
+  String resultado = "";
   void verificaPalpite() {
     setState(() {
       if (palpite == aleatorio) {
@@ -70,10 +69,10 @@ class _PalpiteViewState extends State<PalpiteView> {
               child: Text("Verificar",
                   style: TextStyle(color: Colors.white)),
             ),
-            const SizedBox(height: 20),
+           SizedBox(height: 20),
             Text(
-              resultado ?? "",
-              style: TextStyle(fontSize: 13),
+              resultado,
+              style: TextStyle(fontSize: 20),
             ),
           ],
         ),
